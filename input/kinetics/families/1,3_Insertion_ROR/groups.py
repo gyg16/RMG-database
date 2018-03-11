@@ -1219,6 +1219,7 @@ entry(
 3    H  u0 {2,S}
 """,
     kinetics = None,
+    nodalDistance=10,
 )
 
 entry(
