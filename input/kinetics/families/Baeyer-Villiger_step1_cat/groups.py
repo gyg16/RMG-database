@@ -62,10 +62,43 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 4,
+    label = "6_membered_ring",
+    group =
+"""
+1 *1 C   u0 {2,D} {4,S} {8,S}
+2 *2 O   u0 {1,D}
+4    C   u0 {1,S} {5,[S,D,T,B]}
+5    R!H u0 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H u0 {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    C   u0 {1,S} {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5,
+    label = "peracid",
+    group =
+"""
+1    R u0 {2,S}
+2    C u0 {1,S} {3,D} {4,S}
+3    O u0 {2,D}
+4    O u0 {2,S} {5,S}
+5 *3 O u0 {4,S} {6,S}
+6 *4 H u0 {5,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: ketone
+    L2: 6_membered_ring
 L1: hydroperoxide
+    L2: peracid
 L1: acid
 """
 )

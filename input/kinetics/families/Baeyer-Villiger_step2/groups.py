@@ -41,9 +41,32 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 2,
+    label = "6_membered_ring",
+    group =
+"""
+1  *1 C     u0 {2,S} {3,S} {7,S} {8,S}
+2  *2 [C,H] u0 {1,S} {4,[S,D,T,B]}
+3     [C,H] u0 {1,S} {6,[S,D,T,B]}
+4     R!H   u0 {2,[S,D,T,B]} {5,[S,D,T,B]}
+5     R!H   u0 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6     R!H   u0 {3,[S,D,T,B]} {5,[S,D,T,B]}
+7  *3 O     u0 {1,S} {13,S}
+8  *5 O     u0 {1,S} {9,S}
+9  *6 O     u0 {8,S} {10,S}
+10 *7 C     u0 {9,S} {11,D} {12,S}
+11 *8 O     u0 {10,D}
+12    R     u0 {10,S}
+13 *4 H     u0 {7,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: criegee
+    L2: 6_membered_ring
 """
 )
 
