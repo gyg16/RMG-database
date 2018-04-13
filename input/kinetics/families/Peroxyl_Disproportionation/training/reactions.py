@@ -11,7 +11,7 @@ group additivity values in this file.
 entry(
     index = 1,
     label = "CH3OCH2O2 + CH3OCH2O2 <=> CH3OCH2O + O2 + CH3OCH2O",
-    degeneracy = 1.0,
+    degeneracy = 0.5,
     kinetics=Arrhenius(
         A = (1.547e+23, 'cm^3/(mol*s)'),
         n = -4.5,
@@ -29,7 +29,7 @@ Taken from entry: CH3OCH2O2 + CH3OCH2O2 <=> O2 + CH3OCH2O + CH3OCH2O
 entry(
     index = 2,
     label = "CH3O2 + CH3O2 <=> CH3O + O2 + CH3O",
-    degeneracy = 1.0,
+    degeneracy = 0.5,
     kinetics = Arrhenius(
         A = (1.4e+16, 'cm^3/(mol*s)'),
         n = -1.61,
@@ -47,7 +47,7 @@ Taken from entry: CH3O2 + CH3O2 <=> O2 + CH3O + CH3O
 entry(
     index = 3,
     label = "C2H5O2 + C2H5O2 <=> C2H5O + O2 + C2H5O",
-    degeneracy = 1.0,
+    degeneracy = 0.5,
     kinetics = Arrhenius(
         A = (2.9e+11, 'cm^3/(mol*s)'),
         n = -0.27,

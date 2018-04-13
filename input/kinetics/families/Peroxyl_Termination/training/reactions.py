@@ -11,7 +11,7 @@ group additivity values in this file.
 entry(
     index = 1,
     label = "CH3O2 + CH3O2-2 <=> CH2O + O2 + CH4O",
-    degeneracy = 1.0,
+    degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (2e+11, 'cm^3/(mol*s)'),
         n = -0.55,
@@ -29,7 +29,7 @@ Taken from entry: CH3OO + CH3OO <=> CH3OH + CH2O + O2
 entry(
     index = 2,
     label = "C2H5O2 + C2H5O2-2 <=> C2H4O + O2 + C2H6O",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.3e+09, 'cm^3/(mol*s)'), n=0, Ea=(-850, 'cal/mol'), T0=(1, 'K')),
     rank = 3,
     shortDesc = u"""Training reaction from kinetics library: Klippenstein_Glarborg2016""",
