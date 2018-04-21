@@ -3080,3 +3080,29 @@ G4 Calculation with 1-D HR done by Lintao Bu at Nrel
 """,
 )
 
+entry(
+    index = 194,
+    label = "CH3CH2CHOCH3 <=> OCHCH2CH3 + CH3",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3.90639e11, 's^-1'), n=0.416984, Ea=(101.531, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3 calculation""",
+    longDesc = 
+u"""
+CBS-QB3 calculation done by Sarah Khanniche
+""",
+)
+
+entry(
+    index = 196,
+    label = "OCHCH2CH3 + CH3 <=> CH3CH2CHOCH3 ",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1795.13, 'cm^3/(mol*s)'), n=2.30386, Ea=(74.3324, 'kJ/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""CBS-QB3 calculation""",
+    longDesc = 
+u"""
+CBS-QB3 calculation done by Sarah Khanniche
+""",
+)
+
