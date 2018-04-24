@@ -1039,3 +1039,46 @@ u"""
 """,
 )
 
+entry(
+    index = 28,
+    label = "1CH2OC1CH3",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {4,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+4 C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+5 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.9969, -7.40169e-05, 7.92687e-05, -1.27441e-07, 6.66791e-11, 12210.8, 9.15832],
+                Tmin = (10, 'K'),
+                Tmax = (493.926, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-0.00815379, 0.0323599, -1.92281e-05, 5.50083e-09, -6.08155e-13, 12606.4, 25.6554],
+                Tmin = (493.926, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (101.519, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (203.705, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 calculation with methyl treated as Free Rotor by Matt Johnson""",
+    longDesc = 
+u"""
+CBS-QB3 calculation with methyl treated as Free Rotor by Matt Johnson
+""",
+)  
+    
+
