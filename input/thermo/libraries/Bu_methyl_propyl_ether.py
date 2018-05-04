@@ -2,9 +2,9 @@
 # encoding: utf-8
 
 name = "Bu_methyl_propyl_ether"
-shortDesc = u"Temporary-H298 taken from GAV Thermo calculated using G4 method with 1-d HR using cantherm by Mark Nimlos and Bu Lintao of Nrel"
+shortDesc = u"Temporary-H298 taken from GAV Thermo mostly calculated using G4 method with 1-d HR using cantherm by Mark Nimlos and Bu Lintao of Nrel"
 longDesc = u"""
-Thermo calculated using G4 method with 1-d HR using cantherm by Mark Nimlos and Bu Lintao of Nrel
+Mostly thermo calculated using G4 method with 1-d HR using cantherm by Mark Nimlos and Bu Lintao of Nrel
 for oxidation of propyl-methyl-ether
 """
 entry(
