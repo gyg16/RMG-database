@@ -19,7 +19,7 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "Y_rad",
     group = 
 """
@@ -29,7 +29,7 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "Birad",
     group = 
 """
@@ -39,92 +39,7 @@ entry(
 )
 
 entry(
-    index = 50,
-    label = "O_birad",
-    group = 
-"""
-1 *2 O u2 p2
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 51,
-    label = "S_birad",
-    group = 
-"""
-1 *2 S u2 p2
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 52,
-    label = "N_R_birad",
-    group = 
-"""
-1 *2 N u2 p1
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 53,
-    label = "N_birad/H",
-    group = 
-"""
-1 *2 N u2 p1 {2,S}
-2    H u0 p0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 54,
-    label = "N_birad/C",
-    group = 
-"""
-1 *2 N u2 p1 {2,S}
-2    C ux    {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 55,
-    label = "N_birad/O",
-    group = 
-"""
-1 *2 N u2 p1 {2,S}
-2    O ux    {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 56,
-    label = "N_birad/N",
-    group = 
-"""
-1 *2 N u2 p1 {2,S}
-2    N ux    {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 57,
-    label = "N_birad/S",
-    group = 
-"""
-1 *2 N u2 p1 {2,S}
-2    S ux    {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 3,
+    index = 2,
     label = "H_rad",
     group = 
 """
@@ -134,7 +49,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "Ct_rad",
     group = 
 """
@@ -145,7 +60,7 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "O_rad",
     group = 
 """
@@ -156,7 +71,7 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "O_pri_rad",
     group = 
 """
@@ -167,7 +82,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "O_sec_rad",
     group = 
 """
@@ -178,7 +93,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "O_rad/NonDe",
     group = 
 """
@@ -189,7 +104,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "O_rad/OneDe",
     group = 
 """
@@ -200,7 +115,7 @@ entry(
 )
 
 entry(
-    index = 60,
+    index = 9,
     label = "S_rad",
     group = 
 """
@@ -211,7 +126,7 @@ entry(
 )
 
 entry(
-    index = 61,
+    index = 10,
     label = "S_pri_rad",
     group = 
 """
@@ -222,7 +137,7 @@ entry(
 )
 
 entry(
-    index = 62,
+    index = 11,
     label = "S_sec_rad",
     group = 
 """
@@ -233,7 +148,7 @@ entry(
 )
 
 entry(
-    index = 63,
+    index = 12,
     label = "S_rad/NonDe",
     group = 
 """
@@ -244,7 +159,7 @@ entry(
 )
 
 entry(
-    index = 64,
+    index = 13,
     label = "S_rad/OneDe",
     group = 
 """
@@ -255,7 +170,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 14,
     label = "Cd_rad",
     group = 
 """
@@ -267,7 +182,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 15,
     label = "Cd_pri_rad",
     group = 
 """
@@ -279,7 +194,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 16,
     label = "Cd_sec_rad",
     group = 
 """
@@ -291,7 +206,7 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 17,
     label = "Cd_rad/NonDe",
     group = 
 """
@@ -303,7 +218,7 @@ entry(
 )
 
 entry(
-    index = 14,
+    index = 18,
     label = "Cd_rad/OneDe",
     group = 
 """
@@ -315,7 +230,7 @@ entry(
 )
 
 entry(
-    index = 15,
+    index = 19,
     label = "Cb_rad",
     group = 
 """
@@ -327,7 +242,7 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 20,
     label = "CO_rad",
     group = 
 """
@@ -339,7 +254,7 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 21,
     label = "CO_pri_rad",
     group = 
 """
@@ -351,7 +266,7 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 22,
     label = "CO_sec_rad",
     group = 
 """
@@ -363,7 +278,7 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 23,
     label = "CO_rad/NonDe",
     group = 
 """
@@ -375,7 +290,7 @@ entry(
 )
 
 entry(
-    index = 20,
+    index = 24,
     label = "CO_rad/OneDe",
     group = 
 """
@@ -387,7 +302,7 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 25,
     label = "CS_rad",
     group = 
 """
@@ -399,7 +314,7 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 26,
     label = "CS_pri_rad",
     group = 
 """
@@ -411,7 +326,7 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 27,
     label = "CS_sec_rad",
     group = 
 """
@@ -423,7 +338,7 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 28,
     label = "CS_rad/NonDe",
     group = 
 """
@@ -435,7 +350,7 @@ entry(
 )
 
 entry(
-    index = 20,
+    index = 29,
     label = "CS_rad/OneDe",
     group = 
 """
@@ -447,7 +362,7 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 30,
     label = "Cs_rad",
     group = 
 """
@@ -460,7 +375,7 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 31,
     label = "C_methyl",
     group = 
 """
@@ -473,7 +388,7 @@ entry(
 )
 
 entry(
-    index = 23,
+    index = 32,
     label = "C_pri_rad",
     group = 
 """
@@ -486,7 +401,7 @@ entry(
 )
 
 entry(
-    index = 24,
+    index = 33,
     label = "C_rad/H2/Cs",
     group = 
 """
@@ -499,7 +414,7 @@ entry(
 )
 
 entry(
-    index = 25,
+    index = 34,
     label = "C_rad/H2/Cd",
     group = 
 """
@@ -512,7 +427,7 @@ entry(
 )
 
 entry(
-    index = 26,
+    index = 35,
     label = "C_rad/H2/Ct",
     group = 
 """
@@ -525,7 +440,7 @@ entry(
 )
 
 entry(
-    index = 27,
+    index = 36,
     label = "C_rad/H2/Cb",
     group = 
 """
@@ -538,7 +453,7 @@ entry(
 )
 
 entry(
-    index = 28,
+    index = 37,
     label = "C_rad/H2/CO",
     group = 
 """
@@ -551,7 +466,7 @@ entry(
 )
 
 entry(
-    index = 28,
+    index = 38,
     label = "C_rad/H2/CS",
     group = 
 """
@@ -564,7 +479,7 @@ entry(
 )
 
 entry(
-    index = 29,
+    index = 39,
     label = "C_rad/H2/O",
     group = 
 """
@@ -577,7 +492,7 @@ entry(
 )
 
 entry(
-    index = 29,
+    index = 40,
     label = "C_rad/H2/S",
     group = 
 """
@@ -590,7 +505,7 @@ entry(
 )
 
 entry(
-    index = 30,
+    index = 41,
     label = "C_sec_rad",
     group = 
 """
@@ -603,7 +518,7 @@ entry(
 )
 
 entry(
-    index = 31,
+    index = 42,
     label = "C_rad/H/NonDeC",
     group = 
 """
@@ -616,7 +531,7 @@ entry(
 )
 
 entry(
-    index = 32,
+    index = 43,
     label = "C_rad/H/NonDeO",
     group = 
 """
@@ -629,7 +544,7 @@ entry(
 )
 
 entry(
-    index = 33,
+    index = 44,
     label = "C_rad/H/CsO",
     group = 
 """
@@ -642,7 +557,7 @@ entry(
 )
 
 entry(
-    index = 34,
+    index = 45,
     label = "C_rad/H/O2",
     group = 
 """
@@ -655,7 +570,7 @@ entry(
 )
 
 entry(
-    index = 32,
+    index = 46,
     label = "C_rad/H/NonDeS",
     group = 
 """
@@ -668,7 +583,7 @@ entry(
 )
 
 entry(
-    index = 35,
+    index = 47,
     label = "C_rad/H/OneDe",
     group = 
 """
@@ -681,7 +596,7 @@ entry(
 )
 
 entry(
-    index = 36,
+    index = 48,
     label = "C_rad/H/OneDeC",
     group = 
 """
@@ -694,7 +609,7 @@ entry(
 )
 
 entry(
-    index = 37,
+    index = 49,
     label = "C_rad/H/OneDeO",
     group = 
 """
@@ -707,7 +622,7 @@ entry(
 )
 
 entry(
-    index = 37,
+    index = 50,
     label = "C_rad/H/OneDeS",
     group = 
 """
@@ -720,7 +635,7 @@ entry(
 )
 
 entry(
-    index = 38,
+    index = 51,
     label = "C_rad/H/TwoDe",
     group = 
 """
@@ -733,7 +648,7 @@ entry(
 )
 
 entry(
-    index = 39,
+    index = 52,
     label = "C_ter_rad",
     group = 
 """
@@ -746,7 +661,7 @@ entry(
 )
 
 entry(
-    index = 40,
+    index = 53,
     label = "C_rad/NonDeC",
     group = 
 """
@@ -759,7 +674,7 @@ entry(
 )
 
 entry(
-    index = 41,
+    index = 54,
     label = "C_rad/Cs3",
     group = 
 """
@@ -772,7 +687,7 @@ entry(
 )
 
 entry(
-    index = 42,
+    index = 55,
     label = "C_rad/NDMustO",
     group = 
 """
@@ -785,7 +700,7 @@ entry(
 )
 
 entry(
-    index = 43,
+    index = 56,
     label = "C_rad/OneDe",
     group = 
 """
@@ -798,7 +713,7 @@ entry(
 )
 
 entry(
-    index = 44,
+    index = 57,
     label = "C_rad/Cs2",
     group = 
 """
@@ -811,7 +726,7 @@ entry(
 )
 
 entry(
-    index = 45,
+    index = 58,
     label = "C_rad/ODMustO",
     group = 
 """
@@ -824,7 +739,7 @@ entry(
 )
 
 entry(
-    index = 46,
+    index = 59,
     label = "C_rad/TwoDe",
     group = 
 """
@@ -837,7 +752,7 @@ entry(
 )
 
 entry(
-    index = 47,
+    index = 60,
     label = "C_rad/Cs",
     group = 
 """
@@ -850,7 +765,7 @@ entry(
 )
 
 entry(
-    index = 48,
+    index = 61,
     label = "C_rad/TDMustO",
     group = 
 """
@@ -863,7 +778,7 @@ entry(
 )
 
 entry(
-    index = 49,
+    index = 62,
     label = "C_rad/ThreeDe",
     group = 
 """
@@ -871,6 +786,91 @@ entry(
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 63,
+    label = "O_birad",
+    group = 
+"""
+1 *2 O u2 p2
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 64,
+    label = "S_birad",
+    group = 
+"""
+1 *2 S u2 p2
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 65,
+    label = "N_R_birad",
+    group = 
+"""
+1 *2 N u2 p1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 66,
+    label = "N_birad/H",
+    group = 
+"""
+1 *2 N u2 p1 {2,S}
+2    H u0 p0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 67,
+    label = "N_birad/C",
+    group = 
+"""
+1 *2 N u2 p1 {2,S}
+2    C ux {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 68,
+    label = "N_birad/O",
+    group = 
+"""
+1 *2 N u2 p1 {2,S}
+2    O ux {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 69,
+    label = "N_birad/N",
+    group = 
+"""
+1 *2 N u2 p1 {2,S}
+2    N ux {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 70,
+    label = "N_birad/S",
+    group = 
+"""
+1 *2 N u2 p1 {2,S}
+2    S ux {1,S}
 """,
     kinetics = None,
 )
@@ -967,24 +967,23 @@ This family is intended to handle
 instances with a different number of lone pairs are forbidden
 """,
 )
- 
+
 forbidden(
-    label = "S2_p1",
+    label = "OS_chain",
     group = 
 """
-1 *2 S u2 p1
+1 *1 [O,S] u1 p2 {2,S}
+2    [O,S] u0 p2 {1,S} {3,S}
+3    [O,S] u0 p2 {2,S} {4,S}
+4    [O,S] u1 p2 {3,S}
 """,
     shortDesc = u"""""",
     longDesc = 
 u"""
-This family is intended to handle
-[O] u2 p2,    or
-[S] u2 p2,    or
-[NH] u2 p1,
-instances with a different number of lone pairs are forbidden
+Group added to forbid this family from forming S-O chains
 """,
 )
- 
+
 forbidden(
     label = "S2_p0",
     group = 
@@ -1003,18 +1002,19 @@ instances with a different number of lone pairs are forbidden
 )
 
 forbidden(
-    label = "OS_chain",
+    label = "S2_p1",
     group = 
 """
-1 *1 [O,S] u1 p2 {2,S}
-2    [O,S] u0 p2 {1,S} {3,S}
-3    [O,S] u0 p2 {2,S} {4,S}
-4    [O,S] u1 p2 {3,S}
+1 *2 S u2 p1
 """,
     shortDesc = u"""""",
     longDesc = 
 u"""
-Group added to forbid this family from forming S-O chains
+This family is intended to handle
+[O] u2 p2,    or
+[S] u2 p2,    or
+[NH] u2 p1,
+instances with a different number of lone pairs are forbidden
 """,
 )
 
